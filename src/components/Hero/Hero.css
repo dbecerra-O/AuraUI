@@ -69,6 +69,13 @@
   width: fit-content;
 }
 
+.hero-badge-logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 /* Título */
 .hero-title {
   margin-bottom: var(--spacing-xl);

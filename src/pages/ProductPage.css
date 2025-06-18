@@ -42,6 +42,13 @@
   box-shadow: var(--shadow-md);
 }
 
+.hero-badge-logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .hero-content h1 {
   font-size: var(--font-size-5xl);
   font-weight: var(--font-weight-bold);

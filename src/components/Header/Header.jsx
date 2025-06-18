@@ -43,9 +43,11 @@ const Header = () => {
         <div className="header-content">
           {/* Logo */}
           <Link to="/" className="logo">
-            <div className="logo-icon">
-              <Zap size={24} />
-            </div>
+            <img 
+              src="/aura.jpg" 
+              alt="AuraUI Logo" 
+              className="logo-image"
+            />
             <span className="logo-text">AuraUI</span>
           </Link>
 

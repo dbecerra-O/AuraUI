@@ -123,15 +123,18 @@
   color: var(--color-golden-yellow);
 }
 
-.footer-logo .logo-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.footer-logo-image {
   width: 40px;
   height: 40px;
-  background: var(--gradient-golden);
   border-radius: var(--border-radius-lg);
-  color: var(--color-deep-black);
+  object-fit: cover;
+  transition: var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+}
+
+.footer-logo:hover .footer-logo-image {
+  transform: rotate(-5deg) scale(1.05);
+  box-shadow: var(--shadow-md);
 }
 
 .footer-description {

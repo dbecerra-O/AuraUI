@@ -90,9 +90,11 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="footer-brand">
             <Link to="/" className="footer-logo">
-              <div className="logo-icon">
-                <Zap size={24} />
-              </div>
+              <img 
+                src="/aura.jpg" 
+                alt="AuraUI Logo" 
+                className="footer-logo-image"
+              />
               <span className="logo-text">AuraUI</span>
             </Link>
             <p className="footer-description">

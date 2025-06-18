@@ -74,7 +74,11 @@ const Hero = () => {
             className="hero-badge"
             variants={itemVariants}
           >
-            <Sparkles size={16} />
+            <img 
+              src="/aura.jpg" 
+              alt="AuraUI" 
+              className="hero-badge-logo"
+            />
             <span>Powered by AI</span>
           </motion.div>
 

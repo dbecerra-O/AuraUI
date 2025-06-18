@@ -200,7 +200,11 @@ const ProductPage = () => {
             transition={{ duration: 0.8 }}
           >
             <div className="hero-badge">
-              <Zap size={16} />
+              <img 
+                src="/aura.jpg" 
+                alt="AuraUI" 
+                className="hero-badge-logo"
+              />
               <span>Powered by Advanced AI</span>
             </div>
             <h1>La Plataforma que Revoluciona el Desarrollo de UI</h1>
